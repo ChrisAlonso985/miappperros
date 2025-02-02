@@ -1,4 +1,4 @@
-package com.example.miappperros
+ package com.example.miappperros
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Bienvenido a la App de Reconocimiento de Razas de Perros",
         modifier = modifier
     )
 }
